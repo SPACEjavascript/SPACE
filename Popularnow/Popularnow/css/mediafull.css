@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1029px){
+    header form{
+        transform: translateX(-50px);
+      }
+      header .brand-logo{
+        transform: translate(108px, -18px);
+      }
+    .header__intro{
+        display: none;
+    }
+    .fullstory{
+        margin-left: 126px;
+        margin-top: 39px;
+    }
+    .pesni{
+        transform: translate(86px, 295px);
+ }
+    .fullstory .artis__title{
+        margin-top: -200px;
+        margin-left: 180px;
+    }
+    .fullstory .music__artis{
+        transform: translateX(-198px);
+    }
+    header form input{
+        padding: 16px 171px;
+    }
+}
+@media only screen and (max-width: 1064px){
+    header form{
+        transform: translate(109px, 0px)
+    }
+}
+
+@media only screen and (max-width: 910px){
+    header form{
+        transform: translateX(-14px);
+
+    }
+    .pesni {
+        transform: translate(58px, 295px);
+    }
+}
+
+@media only screen and (max-width: 886px){
+    header form{
+        display: none;
+    }
+    .fullstory .music__artis{
+        transform: translate(98px, -27px);
+     }
+    .fullstory .artis__title{
+        margin-top: -6px;
+        margin-left: 51px;
+    
+    }
+    .pesni{
+        width: 135px;
+        margin-top: 170px;
+        margin-left: -11px;
+    
+    }
+    .fullstory .artis__title .btn_wrapper .o-pay{
+        transform: translate(-4px, 0px);
+    }
+    .fullstory .artis__title .btn_wrapper .btn{
+        transform: translate(-2px, 0px);
+    }
+    .pesni .single{
+        width: 601px;
+    }
+    .pesni .single h5 a span{
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 962px){
+    .fullstory{
+        margin-left: 184px;
+    }
+    .pesni{
+        transform: translate(194px, 308px);
+    }
+    header .brand-logo{
+        transform: translateX(171px);
+    }
+}
+
+@media only screen and (max-width: 962px){
+    .pesni{
+        transform: translate(66px, 308px);
+    }
+    .fullstory{
+        margin-left: 123px;
+    }
+    header .brand-logo{
+        transform: translateX(124px);
+    }
+}

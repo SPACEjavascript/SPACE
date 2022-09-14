@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+.container{
+    position: relative;
+    display: flex;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    .brand-logo{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        height: 80px;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        color: #353535;
+        z-index: 999;
+        margin-left: 100px;
+    }
+    form{
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: max-content;
+        height: 80px;
+        input{
+            border: none;
+            background-color: #F2F8FF;
+            border-radius: 95px;
+            padding: 16px 231px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #787878;
+            text-align: center;
+        }
+        img{
+            position: absolute;
+            right: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+@import "_header__intro";
+@import "_fullstory";
+@import "_musicpesni";

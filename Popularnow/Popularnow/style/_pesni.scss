@@ -1,0 +1,94 @@
+.pesni{
+    width: 800px;
+    height: 775px;
+    transform: translate(-100%, 65%);
+    .title{
+        a{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #353535;
+        }
+    }
+    .single{
+
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 800px;
+        height: 48px;
+        margin-top: 28px;
+        .single__img{
+            display: flex;
+            align-items: center;
+            width: 44px;
+            height: 48px;
+            img{
+                width: 44px;
+                height: 44px;
+                position: absolute;
+                left: 55px;
+            }
+        }
+        .number{
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 42px;
+            color: #B1B1B1;
+            margin-right: 20px;
+        }
+        h5{
+            margin-left: 5px;
+           a{
+            display: flex;
+            flex-direction: column;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 26px;
+            color: #353535;
+            span{
+                display: flex;
+                justify-content: space-between;
+                width: 600px;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #B1B1B1;
+            }
+           }
+        }
+
+        .rasume{
+            position: absolute;
+            right: 0;
+            display: flex;
+            align-items: center;
+             width: 44px;
+            height: 44px;
+            opacity: 0.2;
+            border: 1px solid #B1B1B1;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 50px;
+        .plus{
+            display: block;
+            width: 4px;
+            height: 24px;
+            background: #FB9802;
+            border-radius: 10px;
+            margin-left: 13px;
+            cursor: pointer;
+            &::before{
+                content: '';
+                display: block;
+                width: 4px;
+                height: 24px;
+                background: #FB9802;
+                border-radius: 10px;
+                margin-left: 15px;
+            }
+
+        }
+        }
+    }
+}

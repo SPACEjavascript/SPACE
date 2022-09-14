@@ -1,0 +1,27 @@
+.footer__slow{
+    position: absolute;
+    width: 984px;
+    height: 85px;
+    background: #F2F8FF;
+    bottom: 83px;
+    left: 297px;
+    border-radius: 0px;    
+    .footer_link{
+        width: 200px;
+        height: 19px;
+        margin-left: 170px;
+         nav{
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            margin-top: 30px;
+            height: 19px;
+            a{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FB9802;
+            }
+        }
+    }
+}
